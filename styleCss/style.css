@@ -1,0 +1,53 @@
+* {
+    box-sizing:border-box;
+    font-family:Verdana;
+}
+body {
+    margin:25px;
+    padding:15px;
+    height:auto;
+    border:solid grey 1px;
+    background-image:url("../images/stars.jpeg")
+}
+.header {
+    display:flex;
+    width:auto;
+    border-radius:purple solid 2px;
+    flex-direction:row;
+    justify-content:space-around;
+    background-color:linear-gradient(90deg, color, color, color) 20%;
+}
+.menuBox {
+    border : purple 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:600px;
+    margin:20px;
+    background: linear-gradient(115deg, rgba(99,20,102,1) 0%, rgba(227,29,61,0.7912087912087912) 35%, rgba(159,118,2,0.8153846153846154) 100%);
+}
+.menuButton {
+    display:flex;
+    background-color:goldenrod;
+    height:65px;
+    width:150px;
+    border: 3px solid purple;
+    margin: 25px;
+    border-radius: 76% 24% 59% 41% / 39% 68% 32% 61% ;
+    cursor:pointer;
+    align-items:center;
+    justify-content: center;
+}
+div {
+    border-radius:5px;
+}
+a {
+    text-decoration:none;
+    text-align:center;
+    color:black;
+    font-weight:bold;
+}
+.project {
+    color:white;
+}
